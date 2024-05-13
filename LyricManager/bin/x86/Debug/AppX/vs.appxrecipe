@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Projects\LyricManager\LyricManager\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-13T11:38:08.184</Modified>
+      <Modified>2024-05-13T14:14:20.695</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Projects\LyricManager\LyricManager\bin\x86\Debug\LyricManager.exe">
       <PackagePath>entrypoint\LyricManager.exe</PackagePath>
-      <Modified>2024-05-13T11:38:05.933</Modified>
+      <Modified>2024-05-13T14:14:17.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -90,15 +90,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\LyricManager\LyricManager\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2024-05-13T11:38:05.766</Modified>
+      <Modified>2024-05-13T14:14:16.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\LyricManager\LyricManager\bin\x86\Debug\Controls\LyricSelecterItemControl.xbf">
       <PackagePath>Controls\LyricSelecterItemControl.xbf</PackagePath>
-      <Modified>2024-05-13T11:38:05.766</Modified>
+      <Modified>2024-05-13T14:14:16.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\LyricManager\LyricManager\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2024-05-13T11:38:05.766</Modified>
+      <Modified>2024-05-13T14:14:16.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -110,7 +110,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\LyricManager\LyricManager\bin\x86\Debug\Core\LyricManager.exe">
       <PackagePath>LyricManager.exe</PackagePath>
-      <Modified>2024-05-13T11:38:08.179</Modified>
+      <Modified>2024-05-13T14:14:20.640</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
