@@ -560,3 +560,8 @@ D:\Projects\LyricManager\LyricManager\obj\x86\Release\ilc\intermediate\Resources
 D:\Projects\LyricManager\LyricManager\obj\x86\Release\ilc\intermediate\Resources\System.Threading.Thread.index.txt
 D:\Projects\LyricManager\LyricManager\obj\x86\Release\ilc\intermediate\rhbindargs.LyricManager.rsp
 D:\Projects\LyricManager\LyricManager\obj\x86\Release\ilc\intermediate\System.Private.LyricManager.Generated.dll
+D:\Projects\LyricManager\LyricManager\bin\x86\Release\Views\SettingsPage.xbf
+D:\Projects\LyricManager\LyricManager\obj\x86\Release\Views\SettingsPage.g.i.cs
+D:\Projects\LyricManager\LyricManager\obj\x86\Release\Views\SettingsPage.g.cs
+D:\Projects\LyricManager\LyricManager\obj\x86\Release\Views\SettingsPage.xaml
+D:\Projects\LyricManager\LyricManager\obj\x86\Release\Views\SettingsPage.xbf

@@ -8,6 +8,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Name" />
+      <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.FrameworkElement">
       <RootProperty Name="Margin" />
@@ -74,5 +75,16 @@
       <RootProperty Name="Visibility" />
     </RootType>
     <RootType FullName="LyricManager.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
+      <RootProperty Name="Content" />
+      <RootProperty Name="NavigateUri" />
+    </RootType>
+    <RootType FullName="LyricManager.Views.SettingsPage" />
   </Roots.RootTypes>
 </Roots>

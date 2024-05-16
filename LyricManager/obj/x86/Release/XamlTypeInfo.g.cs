@@ -199,17 +199,19 @@ namespace LyricManager.LyricManager_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[4];
+            _typeNameTable = new string[5];
             _typeNameTable[0] = "LyricManager.Controls.LyricSelecterItemControl";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[2] = "LyricManager.MainPage";
             _typeNameTable[3] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[4] = "LyricManager.Views.SettingsPage";
 
-            _typeTable = new global::System.Type[4];
+            _typeTable = new global::System.Type[5];
             _typeTable[0] = typeof(global::LyricManager.Controls.LyricSelecterItemControl);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[2] = typeof(global::LyricManager.MainPage);
             _typeTable[3] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[4] = typeof(global::LyricManager.Views.SettingsPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -245,6 +247,7 @@ namespace LyricManager.LyricManager_XamlTypeInfo
         }
 
         private object Activate_2_MainPage() { return new global::LyricManager.MainPage(); }
+        private object Activate_4_SettingsPage() { return new global::LyricManager.Views.SettingsPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -275,6 +278,13 @@ namespace LyricManager.LyricManager_XamlTypeInfo
 
             case 3:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::LyricManager.LyricManager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 4:   //  LyricManager.Views.SettingsPage
+                userType = new global::LyricManager.LyricManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_SettingsPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;
