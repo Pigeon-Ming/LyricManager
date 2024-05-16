@@ -53,6 +53,14 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="HorizontalContentAlignment" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ProgressRing">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="IsActive" />
+      <RootProperty Name="Visibility" />
     </RootType>
     <RootType FullName="LyricManager.MainPage" />
   </Roots.RootTypes>

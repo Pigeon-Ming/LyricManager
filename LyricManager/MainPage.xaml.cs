@@ -26,6 +26,8 @@ namespace LyricManager
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        JsonArray jsonArray;
+
         public MainPage()
         {
             this.InitializeComponent();
@@ -33,11 +35,14 @@ namespace LyricManager
 
         private async void SearchButton_Click(object sender, RoutedEventArgs e)
         {
-            JsonArray jsonArray = await OnlineMessages.MusicHelper.GetMusicJsonArrayAsync(Title_TextBox.Text);
+            SaveAsLRCFile.IsEnabled = false;
+            LoadingProgressRing.Visibility = Visibility.Visible;
+            jsonArray = await OnlineMessages.MusicHelper.GetMusicJsonArrayAsync(Title_TextBox.Text);
 
             if (jsonArray.Count <= 0) return;
-            
-            for(int i = 0; i < jsonArray.Count; i++)
+
+            LyricSelecterComboBox.Items.Clear();
+            for (int i = 0; i < jsonArray.Count; i++)
             {
                 JsonObject obj = jsonArray[i].GetObject();
                 String Title = obj["name"].GetString();
@@ -48,6 +53,9 @@ namespace LyricManager
                     JsonObject artistObj = array[j].GetObject();
                     Artist += artistObj["name"].GetString();
                 }
+                if (!String.IsNullOrEmpty(Artist_TextBox.Text))
+                    if (Artist.IndexOf(Artist_TextBox.Text) == -1)
+                        break;
 
                 String Album = "";
                 JsonObject albumObj = obj["album"].GetObject();
@@ -55,11 +63,36 @@ namespace LyricManager
 
                 LyricSelecterComboBox.Items.Add(new LyricSelecterItemControl(Title,Artist,Album));
             }
-            LyricSelecterComboBox.SelectedIndex = 0;
+            if (LyricSelecterComboBox.Items.Count > 0)
+            {
+                LyricSelecterComboBox.IsEnabled = true;
+                LyricSelecterComboBox.SelectedIndex = 0;
+            }
+            else
+            {
+                LyricSelecterComboBox.IsEnabled = false;
+                ContentTextBox.Text = "没有找到歌词";
+                LoadingProgressRing.Visibility = Visibility.Collapsed;
 
-            JsonObject jsonObject = jsonArray[0].GetObject();
+            }
+
+            
+
+        }
+
+        private async void LyricSelecterComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (LyricSelecterComboBox.Items.Count == 0) return;
+            LoadingProgressRing.Visibility = Visibility.Visible;
+            JsonObject jsonObject = jsonArray[LyricSelecterComboBox.SelectedIndex].GetObject();
             ContentTextBox.Text = await OnlineMessages.LyricHelper.GetLyricByMusicID(Convert.ToInt32(jsonObject["id"].GetNumber()));
+            LoadingProgressRing.Visibility = Visibility.Collapsed;
+            SaveAsLRCFile.IsEnabled = true;
+        }
 
+        private void AppBarButton_Click(object sender, RoutedEventArgs e)
+        {
+            FileManager.SaveLRCFileAsync(ContentTextBox.Text);
         }
     }
 }

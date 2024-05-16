@@ -8,14 +8,14 @@
 
   <Identity
     Name="d718a20b-4d63-47d0-85ac-6c9306e12c6e"
-    Publisher="CN=zouqi"
+    Publisher="CN=Pigeon_Ming"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="d718a20b-4d63-47d0-85ac-6c9306e12c6e" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>LyricManager</DisplayName>
-    <PublisherDisplayName>zouqi</PublisherDisplayName>
+    <PublisherDisplayName>Pigeon_Ming</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

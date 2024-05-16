@@ -16,7 +16,14 @@ namespace LyricManager.Models
             {
                 String LyricJsonString = await ResponseManager.GetString("http://music.163.com/api/song/media?id=" + ID);
                 JsonObject LyricJson = JsonObject.Parse(LyricJsonString);
-                return LyricJson["lyric"].GetString();
+                if (LyricJson.Keys.ToList().IndexOf("lyric") > -1)
+                {
+                    return LyricJson["lyric"].GetString();
+                } 
+                else
+                {
+                    return "没有找到歌词";
+                }
             }
         }
 

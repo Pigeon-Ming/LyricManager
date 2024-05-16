@@ -1,0 +1,14 @@
+LIBRARY advapi32.dll
+EXPORTS
+   CryptAcquireContextW
+   CryptGenKey
+   CryptGetUserKey
+   CryptGetKeyParam
+   CryptDestroyKey
+   CryptSetProvParam
+
+   CryptGetDefaultProviderW
+
+   CryptImportKey
+   CryptGetProvParam
+   CryptReleaseContext

@@ -27,13 +27,14 @@
                 <ColumnDefinition/>
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
-            <TextBox x:ConnectionId='4' PlaceholderText="标题" Name="Title_TextBox"/>
-            <TextBox x:ConnectionId='5' PlaceholderText="艺术家名称" Name="Artist_TextBox" Grid.Column="1"/>
-            <Button x:ConnectionId='6' Content="搜索" Grid.Column="2" Name="SearchButton"                           />
+            <TextBox x:ConnectionId='5' PlaceholderText="标题" Name="Title_TextBox"/>
+            <TextBox x:ConnectionId='6' PlaceholderText="艺术家名称" Name="Artist_TextBox" Grid.Column="1"/>
+            <Button x:ConnectionId='7' Content="搜索" Grid.Column="2" Name="SearchButton"                           />
         </Grid>
-        <ComboBox x:ConnectionId='2' Margin="8" Grid.Row="1" Name="LyricSelecterComboBox" HorizontalContentAlignment="Stretch" HorizontalAlignment="Stretch"/>
+        <ComboBox x:ConnectionId='2' Margin="8" Grid.Row="1" Name="LyricSelecterComboBox" HorizontalContentAlignment="Stretch" HorizontalAlignment="Stretch"                                                          />
         <Grid Grid.Row="2">
             <TextBox x:ConnectionId='3' Name="ContentTextBox" TextWrapping="Wrap"/>
+            <ProgressRing x:ConnectionId='4' Height="45" Width="45" IsActive="True" Name="LoadingProgressRing" Visibility="Collapsed"/>
         </Grid>
     </Grid>
 </Page>

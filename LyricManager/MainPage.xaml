@@ -20,6 +20,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition/>
+            <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
         <Grid>
             <Grid.ColumnDefinitions>
@@ -31,9 +32,15 @@
             <TextBox PlaceholderText="艺术家名称" Name="Artist_TextBox" Grid.Column="1"/>
             <Button Content="搜索" Grid.Column="2" Name="SearchButton" Click="SearchButton_Click"/>
         </Grid>
-        <ComboBox Margin="8" Grid.Row="1" Name="LyricSelecterComboBox" HorizontalContentAlignment="Stretch" HorizontalAlignment="Stretch"/>
+        <ComboBox Margin="8" Grid.Row="1" Name="LyricSelecterComboBox" HorizontalContentAlignment="Stretch" HorizontalAlignment="Stretch" SelectionChanged="LyricSelecterComboBox_SelectionChanged"/>
         <Grid Grid.Row="2">
-            <TextBox Name="ContentTextBox" TextWrapping="Wrap"/>
+            <TextBox Name="ContentTextBox" TextWrapping="Wrap" IsReadOnly="True"/>
+            <ProgressRing Height="45" Width="45" IsActive="True" Name="LoadingProgressRing" Visibility="Collapsed"/>
         </Grid>
+        <CommandBar Grid.Row="3" ClosedDisplayMode="Minimal">
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Name="SaveAsLRCFile" IsEnabled="False" Label="另存为.lrc文件" Click="AppBarButton_Click"/>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
     </Grid>
 </Page>

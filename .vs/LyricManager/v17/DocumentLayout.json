@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "D:\\Projects\\LyricManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|d:\\projects\\lyricmanager\\lyricmanager\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|solutionrelative:lyricmanager\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|d:\\projects\\lyricmanager\\lyricmanager\\models\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|solutionrelative:lyricmanager\\models\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|D:\\Projects\\LyricManager\\lyricmanager\\models\\onlinemessagesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|solutionrelative:lyricmanager\\models\\onlinemessagesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|D:\\Projects\\LyricManager\\lyricmanager\\controls\\lyricselecteritemcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|solutionrelative:lyricmanager\\controls\\lyricselecteritemcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|D:\\Projects\\LyricManager\\lyricmanager\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
+      "RelativeMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|solutionrelative:lyricmanager\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|D:\\Projects\\LyricManager\\lyricmanager\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|solutionrelative:lyricmanager\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|D:\\Projects\\LyricManager\\lyricmanager\\controls\\lyricselecteritemcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|solutionrelative:lyricmanager\\controls\\lyricselecteritemcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|d:\\projects\\lyricmanager\\lyricmanager\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|solutionrelative:lyricmanager\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|D:\\Projects\\LyricManager\\lyricmanager\\controls\\lyricselecteritemcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|solutionrelative:lyricmanager\\controls\\lyricselecteritemcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|D:\\Projects\\LyricManager\\lyricmanager\\models\\onlinemessagesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|solutionrelative:lyricmanager\\models\\onlinemessagesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|D:\\Projects\\LyricManager\\lyricmanager\\models\\responsemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|solutionrelative:lyricmanager\\models\\responsemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|D:\\Projects\\LyricManager\\lyricmanager\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
-      "RelativeMoniker": "D:0:0:{5818B4DE-FD9C-4810-9FEB-CBDE0DBD8AE7}|LyricManager\\LyricManager.csproj|solutionrelative:lyricmanager\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,66 +42,83 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LyricSelecterItemControl.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\LyricManager\\LyricManager\\Controls\\LyricSelecterItemControl.xaml.cs",
-              "RelativeDocumentMoniker": "LyricManager\\Controls\\LyricSelecterItemControl.xaml.cs",
-              "ToolTip": "D:\\Projects\\LyricManager\\LyricManager\\Controls\\LyricSelecterItemControl.xaml.cs",
-              "RelativeToolTip": "LyricManager\\Controls\\LyricSelecterItemControl.xaml.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA3wBUAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T11:18:05.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "D:\\Projects\\LyricManager\\LyricManager\\MainPage.xaml",
-              "RelativeDocumentMoniker": "LyricManager\\MainPage.xaml",
-              "ToolTip": "D:\\Projects\\LyricManager\\LyricManager\\MainPage.xaml",
-              "RelativeToolTip": "LyricManager\\MainPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T09:34:55.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LyricSelecterItemControl.xaml",
-              "DocumentMoniker": "D:\\Projects\\LyricManager\\LyricManager\\Controls\\LyricSelecterItemControl.xaml",
-              "RelativeDocumentMoniker": "LyricManager\\Controls\\LyricSelecterItemControl.xaml",
-              "ToolTip": "D:\\Projects\\LyricManager\\LyricManager\\Controls\\LyricSelecterItemControl.xaml",
-              "RelativeToolTip": "LyricManager\\Controls\\LyricSelecterItemControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T11:16:49.327Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "OnlineMessagesManager.cs",
               "DocumentMoniker": "D:\\Projects\\LyricManager\\LyricManager\\Models\\OnlineMessagesManager.cs",
               "RelativeDocumentMoniker": "LyricManager\\Models\\OnlineMessagesManager.cs",
               "ToolTip": "D:\\Projects\\LyricManager\\LyricManager\\Models\\OnlineMessagesManager.cs",
               "RelativeToolTip": "LyricManager\\Models\\OnlineMessagesManager.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBIAAAA2AAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwBgAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T10:39:35.455Z"
+              "WhenOpened": "2024-05-13T10:39:35.455Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "D:\\Projects\\LyricManager\\LyricManager\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "LyricManager\\MainPage.xaml.cs",
               "ToolTip": "D:\\Projects\\LyricManager\\LyricManager\\MainPage.xaml.cs",
               "RelativeToolTip": "LyricManager\\MainPage.xaml.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAwwDcAAABiAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAIAwwCUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T09:39:39.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Projects\\LyricManager\\LyricManager\\MainPage.xaml",
+              "RelativeDocumentMoniker": "LyricManager\\MainPage.xaml",
+              "ToolTip": "D:\\Projects\\LyricManager\\LyricManager\\MainPage.xaml",
+              "RelativeToolTip": "LyricManager\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T09:34:55.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Package.appxmanifest",
+              "DocumentMoniker": "D:\\Projects\\LyricManager\\LyricManager\\Package.appxmanifest",
+              "RelativeDocumentMoniker": "LyricManager\\Package.appxmanifest",
+              "ToolTip": "D:\\Projects\\LyricManager\\LyricManager\\Package.appxmanifest",
+              "RelativeToolTip": "LyricManager\\Package.appxmanifest",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2024-05-13T09:36:14.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "D:\\Projects\\LyricManager\\LyricManager\\Models\\FileManager.cs",
+              "RelativeDocumentMoniker": "LyricManager\\Models\\FileManager.cs",
+              "ToolTip": "D:\\Projects\\LyricManager\\LyricManager\\Models\\FileManager.cs",
+              "RelativeToolTip": "LyricManager\\Models\\FileManager.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:06:38.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LyricSelecterItemControl.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\LyricManager\\LyricManager\\Controls\\LyricSelecterItemControl.xaml.cs",
+              "RelativeDocumentMoniker": "LyricManager\\Controls\\LyricSelecterItemControl.xaml.cs",
+              "ToolTip": "D:\\Projects\\LyricManager\\LyricManager\\Controls\\LyricSelecterItemControl.xaml.cs",
+              "RelativeToolTip": "LyricManager\\Controls\\LyricSelecterItemControl.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAYwBUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T11:18:05.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ResponseManager.cs",
               "DocumentMoniker": "D:\\Projects\\LyricManager\\LyricManager\\Models\\ResponseManager.cs",
               "RelativeDocumentMoniker": "LyricManager\\Models\\ResponseManager.cs",
@@ -109,18 +126,8 @@
               "RelativeToolTip": "LyricManager\\Models\\ResponseManager.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAqwBQAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T09:35:56.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Package.appxmanifest",
-              "DocumentMoniker": "D:\\Projects\\LyricManager\\LyricManager\\Package.appxmanifest",
-              "RelativeDocumentMoniker": "LyricManager\\Package.appxmanifest",
-              "ToolTip": "D:\\Projects\\LyricManager\\LyricManager\\Package.appxmanifest",
-              "RelativeToolTip": "LyricManager\\Package.appxmanifest",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
-              "WhenOpened": "2024-05-13T09:36:14.223Z"
+              "WhenOpened": "2024-05-13T09:35:56.072Z",
+              "EditorCaption": ""
             }
           ]
         }
