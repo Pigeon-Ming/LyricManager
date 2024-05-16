@@ -1,0 +1,7 @@
+﻿"G:\Projects\LyricManager\LyricManager\obj\ARM64\Release\ilc\in\LyricManager.exe"
+/Lib:"G:\Projects\LyricManager\LyricManager\obj\ARM64\Release\ilc\in"
+/Lib:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.12-rel-31116-00\tools\ARM64\ilc\lib\Private"
+/WinMD:"G:\Projects\LyricManager\LyricManager\obj\ARM64\Release\ilc\in\WinMetadata\Windows.winmd"
+/VSTelemetrySessionSettings:"{\"TelemetryLevel\":null,\"IsOptedIn\":true,\"HostName\":\"Dev14\",\"AppInsightsInstrumentationKey\":\"f144292e-e3b2-4011-ac90-20e5c03fbce5\",\"AsimovInstrumentationKey\":\"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70\",\"CollectorApiKey\":\"f3e86b4023cc43f0be495508d51f588a-f70d0e59-0fb0-4473-9f19-b4024cc340be-7296\",\"AppId\":1001,\"UserId\":\"44760ed6-f081-4904-9e70-58878580b35a\",\"Id\":\"3166b4f6-6e17-4cec-a8fd-654d667e0721\",\"ProcessStartTime\":638514657452677848,\"SkuName\":\"VS_Community\",\"VSExeVersion\":\"17.9.34622.214\",\"BucketFiltersToEnableWatsonForFaults\":[],\"BucketFiltersToAddDumpsToFaults\":[]}"
+/RdXmlPath:"C:\Program Files (x86)\Microsoft SDKs\UWPNuGetPackages\microsoft.net.native.compiler\2.2.12-rel-31116-00\tools\LibraryXML"
+/RunOnlyPreDR

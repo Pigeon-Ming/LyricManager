@@ -1,0 +1,9 @@
+LIBRARY kernel32.dll
+EXPORTS
+   FormatMessageW
+
+
+
+
+   LocalAlloc
+   LocalFree

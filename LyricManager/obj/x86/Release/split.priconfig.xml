@@ -6,7 +6,7 @@
     <autoResourcePackage qualifier="DXFeatureLevel" />
     <omitSchemaFromResourcePacks />
   </packaging>
-  <index root="\" startIndexAt="D:\Projects\LyricManager\LyricManager\bin\x86\Release\ilc\resources.pri">
+  <index root="\" startIndexAt="G:\Projects\LyricManager\LyricManager\bin\x86\Release\ilc\resources.pri">
     <default>
       <qualifier name="Language" value="zh-CN" />
       <qualifier name="Contrast" value="standard" />

@@ -40,6 +40,8 @@
         <CommandBar Grid.Row="3" ClosedDisplayMode="Minimal">
             <CommandBar.SecondaryCommands>
                 <AppBarButton Name="SaveAsLRCFile" IsEnabled="False" Label="另存为.lrc文件" Click="AppBarButton_Click"/>
+                <AppBarSeparator/>
+                <AppBarButton Name="Settings" IsEnabled="True" Label="设置" Click="Settings_Click"/>
             </CommandBar.SecondaryCommands>
         </CommandBar>
     </Grid>

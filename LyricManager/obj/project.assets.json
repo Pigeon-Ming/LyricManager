@@ -6194,7 +6194,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -10255,22 +10255,22 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zouqi\\.nuget\\packages\\": {},
-    "D:\\VisualStudio\\Shared\\NuGetPackages": {},
+    "G:\\NuGet": {},
+    "H:\\VSSDK\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\LyricManager\\LyricManager\\LyricManager.csproj",
+      "projectUniqueName": "G:\\Projects\\LyricManager\\LyricManager\\LyricManager.csproj",
       "projectName": "LyricManager",
-      "projectPath": "D:\\Projects\\LyricManager\\LyricManager\\LyricManager.csproj",
-      "packagesPath": "C:\\Users\\zouqi\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\LyricManager\\LyricManager\\obj\\",
+      "projectPath": "G:\\Projects\\LyricManager\\LyricManager\\LyricManager.csproj",
+      "packagesPath": "G:\\NuGet",
+      "outputPath": "G:\\Projects\\LyricManager\\LyricManager\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "D:\\VisualStudio\\Shared\\NuGetPackages",
+        "H:\\VSSDK\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
@@ -10283,8 +10283,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Projects\\HotLyric\\WinUI3.Win2D-winappsdk-main\\bin": {},
-        "D:\\Projects\\LyricManager\\LyricManager\\NugetPackages": {},
+        "G:\\Projects\\NugetPackges": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

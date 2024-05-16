@@ -1,0 +1,1 @@
+MainPackage=G:\Projects\LyricManager\LyricManager\bin\x86\Release\LyricManager_1.0.0.0_x86.msix

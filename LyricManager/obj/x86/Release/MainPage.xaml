@@ -28,18 +28,20 @@
                 <ColumnDefinition/>
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
-            <TextBox x:ConnectionId='6' PlaceholderText="标题" Name="Title_TextBox"/>
-            <TextBox x:ConnectionId='7' PlaceholderText="艺术家名称" Name="Artist_TextBox" Grid.Column="1"/>
-            <Button x:ConnectionId='8' Content="搜索" Grid.Column="2" Name="SearchButton"                           />
+            <TextBox x:ConnectionId='7' PlaceholderText="标题" Name="Title_TextBox"/>
+            <TextBox x:ConnectionId='8' PlaceholderText="艺术家名称" Name="Artist_TextBox" Grid.Column="1"/>
+            <Button x:ConnectionId='9' Content="搜索" Grid.Column="2" Name="SearchButton"                           />
         </Grid>
         <ComboBox x:ConnectionId='2' Margin="8" Grid.Row="1" Name="LyricSelecterComboBox" HorizontalContentAlignment="Stretch" HorizontalAlignment="Stretch"                                                          />
         <Grid Grid.Row="2">
-            <TextBox x:ConnectionId='4' Name="ContentTextBox" TextWrapping="Wrap" IsReadOnly="True"/>
-            <ProgressRing x:ConnectionId='5' Height="45" Width="45" IsActive="True" Name="LoadingProgressRing" Visibility="Collapsed"/>
+            <TextBox x:ConnectionId='5' Name="ContentTextBox" TextWrapping="Wrap" IsReadOnly="True"/>
+            <ProgressRing x:ConnectionId='6' Height="45" Width="45" IsActive="True" Name="LoadingProgressRing" Visibility="Collapsed"/>
         </Grid>
         <CommandBar Grid.Row="3" ClosedDisplayMode="Minimal">
             <CommandBar.SecondaryCommands>
                 <AppBarButton x:ConnectionId='3' Name="SaveAsLRCFile" IsEnabled="False" Label="另存为.lrc文件"                           />
+                <AppBarSeparator/>
+                <AppBarButton x:ConnectionId='4' Name="Settings" IsEnabled="True" Label="设置"                       />
             </CommandBar.SecondaryCommands>
         </CommandBar>
     </Grid>

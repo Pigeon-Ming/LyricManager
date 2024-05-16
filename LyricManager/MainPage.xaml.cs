@@ -1,5 +1,6 @@
 ﻿using LyricManager.Controls;
 using LyricManager.Models;
+using LyricManager.Views;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -93,6 +94,11 @@ namespace LyricManager
         private void AppBarButton_Click(object sender, RoutedEventArgs e)
         {
             FileManager.SaveLRCFileAsync(ContentTextBox.Text);
+        }
+
+        private void Settings_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(SettingsPage));
         }
     }
 }

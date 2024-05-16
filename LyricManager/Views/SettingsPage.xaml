@@ -10,7 +10,8 @@
 
     <Grid>
         <ScrollViewer>
-            <StackPanel>
+            <StackPanel Margin="24">
+                <Button Content="返回" Click="Button_Click"/>
                 <TextBlock Text="LyricManager - 歌词管理器"/>
                 <TextBlock Name="VersionTextBlock" Text="v1.0.0"/>
                 <TextBlock Text="在线歌词来源于网易云音乐（music.163.com）,若有侵权，请联系开发者删除。"/>

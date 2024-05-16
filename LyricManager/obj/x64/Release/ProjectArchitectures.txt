@@ -1,1 +1,1 @@
-D:\Projects\LyricManager\LyricManager\LyricManager.csproj;x64
+G:\Projects\LyricManager\LyricManager\LyricManager.csproj;x64
